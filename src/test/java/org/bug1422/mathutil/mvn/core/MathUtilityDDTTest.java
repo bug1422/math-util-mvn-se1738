@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-
 /**
  *
  * @author binla
@@ -20,7 +19,7 @@ public class MathUtilityDDTTest {
                                 {1, 1}, 
                                 {2, 2}, 
                                 {3, 6}, 
-                                {5, 120}};
+                                {5, 1223200}};
                             // n expected
                             // c0, c1
         return testData;
